@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@300&family=Nunito:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@300&family=Merriweather:wght@300&family=Nunito:wght@300&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .container1 {
+            height: 700px;
+            background-color: rgb(219, 235, 229);
+            position: relative;
+
+        }
+
+        .header {
+            height: 100px;
+            position: relative;
+        }
+
+        .header img {
+            height: 90px;
+            width: 90px;
+            display: inline-block;
+            position: absolute;
+            padding-left: 150px;
+            top: 30px;
+        }
+
+        .header a {
+            text-decoration: none;
+            display: inline-block;
+            float: right;
+            padding-left: 50px;
+            padding-right: 10px;
+            color: rgb(61, 175, 124);
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .header a:hover {
+            color: grey;
+        }
+
+        .header li {
+            display: inline-block;
+            float: right;
+            margin-top: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .header ul {
+            margin-right: 150px;
+        }
+
+        .mountain {
+            position: absolute;
+            bottom: 0;
+            left: 200px;
+        }
+
+        .cloud1 {
+            position: absolute;
+            top: 40%;
+            left: 15%;
+        }
+
+        .cloud2 {
+            position: absolute;
+            top: 30%;
+            right: 17%;
+        }
+
+        .sean {
+            position: absolute;
+            left: 400px;
+            top: 200px;
+
+        }
+
+        .p1 {
+            position: absolute;
+            top: 300px;
+            left: 500px;
+            font-size: 20px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container2 {
+            position: relative;
+            height: 400px;
+        }
+
+        .img2 {
+            height: 110px;
+            width: 110px;
+            position: absolute;
+            top: 40px;
+            left: 540px;
+        }
+
+        .container2 h3 {
+            position: absolute;
+            top: 166px;
+            left: 586px;
+            color: rgb(61, 175, 124);
+            font-size: 25px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container2 p {
+            position: absolute;
+            top: 240px;
+            left: 415px;
+            font-size: 20px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container3 {
+            height: 600px;
+            position: relative;
+        }
+
+        .container3 h1 {
+            text-align: center;
+            color: rgb(17, 137, 91);
+            font-size: 40px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .sideimage {
+            height: 130px;
+            width: 130px;
+            position: absolute;
+            left: 200px;
+        }
+
+        .pencil {
+            position: absolute;
+            left: 400px;
+
+        }
+
+        .design {
+            position: absolute;
+            left: 600px;
+            font-size: 35px;
+            color: rgb(61, 175, 124);
+        }
+
+        .para1 {
+            position: absolute;
+            left: 600px;
+            top: 210px;
+            font-size: 20px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        #para {
+            position: absolute;
+            top: 450px;
+            left: 100px;
+            font-size: 20px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .develop {
+            position: absolute;
+            left: 180px;
+            top: 380px;
+            font-size: 30px;
+            color: rgb(61, 175, 124);
+        }
+
+        .rightsideimage {
+            position: absolute;
+            right: 250px;
+            top: 400px;
+            height: 130px;
+            width: 130px;
+        }
+
+        .container4 {
+            height: 350px;
+
+            position: relative;
+        }
+
+        .container4 h1 {
+
+            text-align: center;
+            color: rgb(17, 137, 91);
+            font-size: 40px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .container4 h3 {
+            position: absolute;
+            font-size: 30px;
+            color: rgb(61, 175, 124);
+            left: 350px;
+            top: 80px;
+        }
+
+        .container4 p {
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            font-size: 20px;
+            font-family: 'Caveat', cursive;
+            font-family: 'Inter', sans-serif;
+            font-family: 'Merriweather', serif;
+            font-family: 'Nunito', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .btn {
+            background-color: rgb(29, 167, 141);
+            position: absolute;
+            bottom: 0px;
+            left: 550px;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 200px
+
+        }
+        .container5{
+            background-color: rgb(180, 209, 199);
+            height: 150px;
+            position: relative;
+            margin-top: 100px;
+        }
+        .container5 a{
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(23, 128, 81);
+        }
+        .container5 a:hover{
+            color: gray;
+        }
+        .container5 td{
+            
+            position: absolute;
+            top: 50px;  
+            
+        }
+        .td1{
+            position: absolute;
+            left: 400px;
+
+        }
+        .td2{
+            position: absolute;
+            left: 600px;
+
+        }
+        .td3{
+            position: absolute;
+            right: 400px;
+
+        }
+        .container5 p{
+            position: absolute;
+            left: 500px;
+            top: 100px;
+            color: rgb(23, 128, 81);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <div> <img src="./img2.svg" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="#">Notes</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <img class="cloud1" src="./cloud.svg" alt="">
+        <img class="mountain" src="./img1.svg" alt="">
+        <img class="cloud2" src="./cloud.svg" alt="">
+        <img class="sean" src="./im-sean.svg" alt="">
+        <p class="p1">a web designer.</p>
+    </div>
+    <div class="container2">
+        <img class="img2" src="./img2.svg" alt="">
+        <h3>Hi.</h3>
+        <pre>
+        <p>I'm a web designer / developer based in Toronto, 
+Canada. I have a passion for web design and love to
+    create for web and mobile devices.</p>
+        </pre>
+    </div>
+    <div class="container3">
+        <h1>What I can do.</h1>
+        <img class="sideimage" src="./img2.svg" alt="">
+        <img class="pencil" src="./design-icons-vert.png" alt="">
+        <h3 class="design">Design what you want.</h3>
+        <pre>
+            <p class="para1">I like to keep it simple. My goals are to focus on
+typography, content and conveying the message
+that you want to spend.</p>
+        </pre>
+        <h3 class="develop">Develop what you need.</h3>
+        <pre>
+            <p id="para">
+                I'm a developer, so I know how to create your
+                website to run across devices using the latest
+                technologies available.
+            </p>
+        </pre>
+        <img class="rightsideimage" src="./img2.svg" alt="">
+
+    </div>
+    <div class="container4">
+        <h1>
+            I can help.
+
+        </h1>
+        <h3>
+            I’m currently available for freelance work.
+
+        </h3>
+        <pre>
+            <p>
+                If you have a project that you want to get started, think you need my help
+                with something or just fancy saying hey, then get in touch.
+            </p>
+        </pre>
+        <button class="btn">MESSAGE ME</button>
+    </div>
+    <div class="container5">
+        <table>
+            <tr>
+                <td class="td1"><a href="#">dribbble</a></td>
+                <td class="td2"><a href="#">twitter</a></td>
+                <td class="td3"><a href="#">hire me</a></td>
+            </tr>
+        </table>
+        <p>© 2018 Sean Halpin. All rights reserved.</p>
+
+    </div>
+
+</body>
+
+</html>
